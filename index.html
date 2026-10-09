@@ -10,7 +10,9 @@
     .container { max-width: 820px; margin: 0 auto; padding: 40px 20px 80px; }
 
     h1 { font-size: 2.4rem; margin-bottom: 6px; }
-    .subtitle { font-size: 1.1rem; color: #666; margin-bottom: 48px; }
+    .subtitle { font-size: 1.1rem; color: #666; margin-bottom: 16px; }
+    .jump-btn { display: inline-block; margin-bottom: 48px; padding: 10px 20px; background: #1a1a1a; color: #fff; text-decoration: none; font-family: Georgia, serif; font-size: 0.9rem; }
+    .jump-btn:hover { background: #333; }
     h2 { font-size: 1.5rem; margin: 56px 0 16px; border-bottom: 1px solid #ddd; padding-bottom: 8px; }
     h3 { font-size: 1.15rem; margin: 32px 0 12px; }
     p { margin-bottom: 16px; }
@@ -52,6 +54,7 @@
 
     <h1>Rusher Pressure Productivity</h1>
     <p class="subtitle">Rating pass rushers who disrupt quarterbacks without showing up in the box score.</p>
+    <a href="#results" class="jump-btn">Jump to results</a>
 
     <!-- =========================================================== -->
     <h2>The Problem</h2>
@@ -117,7 +120,7 @@
     </div>
 
     <!-- =========================================================== -->
-    <h2>What the Data Shows</h2>
+    <h2 id="results">What the Data Shows</h2>
 
     <h3>Distribution of ghost pressure ratings</h3>
     <p>We ranked all 74 pass rushers with 5 or more qualifying plays. The distribution is roughly normal, with a few clear outliers above 1.5 standard deviations.</p>
@@ -181,8 +184,8 @@
         <p class="img-caption">Tracking data: Ford's path (red) and Goff's path (yellow). 1.05 yards apart at release.</p>
       </div>
       <div>
-        <div class="video-placeholder">
-          <span>Video placeholder: SF @ DET, Q2 1:20, 3rd & 8</span>
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/ESCuCqoFOxM" allowfullscreen></iframe>
         </div>
         <p class="img-caption">Video: Ford's rush forces Goff into the interception.</p>
       </div>
