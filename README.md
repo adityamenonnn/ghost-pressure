@@ -1,4 +1,4 @@
-# Ghost Pressure
+# Rusher Pressure Productivity
 
 A metric that rates pass rushers on how much they disrupt a quarterback's throw without recording a hit, hurry, or sack. Built using NFL Next Gen Stats tracking data (10Hz player positioning) and PFF scouting data from the 2021 season.
 
