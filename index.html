@@ -117,44 +117,10 @@
 
     <p>Release time and displacement are compared against each QB's personal averages on 3rd and 7+ situations specifically, not all plays. A QB moves differently on 1st and 10 than on 3rd and 12. By using situational baselines, we ensure the comparison is fair.</p>
 
-    <div style="background: #1a1a1a; color: #fff; padding: 32px; margin: 24px 0;">
-      <div style="font-family: monospace; font-size: 1.3rem; text-align: center; letter-spacing: 1px; margin-bottom: 20px;">
-        <span style="color: #fff; font-weight: bold;">Ghost Pressure</span>
-        <span style="color: #888;"> = </span>
-        <span style="color: #3498db;">A</span>
-        <span style="color: #888;"> + </span>
-        <span style="color: #e74c3c;">B</span>
-        <span style="color: #888;"> + </span>
-        <span style="color: #2ecc71;">C</span>
-        <span style="color: #888;"> + </span>
-        <span style="color: #f39c12;">D</span>
-      </div>
-      <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 12px; text-align: center; font-size: 0.8rem;">
-        <div>
-          <div style="color: #3498db; font-weight: bold; font-size: 0.9rem;">A</div>
-          <div style="color: #aaa;">Rushed Release</div>
-          <div style="color: #555; margin-top: 4px;">0 - 25</div>
-        </div>
-        <div>
-          <div style="color: #e74c3c; font-weight: bold; font-size: 0.9rem;">B</div>
-          <div style="color: #aaa;">Forced Movement</div>
-          <div style="color: #555; margin-top: 4px;">0 - 25</div>
-        </div>
-        <div>
-          <div style="color: #2ecc71; font-weight: bold; font-size: 0.9rem;">C</div>
-          <div style="color: #aaa;">Proximity</div>
-          <div style="color: #555; margin-top: 4px;">0 - 25</div>
-        </div>
-        <div>
-          <div style="color: #f39c12; font-weight: bold; font-size: 0.9rem;">D</div>
-          <div style="color: #aaa;">Outcome</div>
-          <div style="color: #555; margin-top: 4px;">0 - 25</div>
-        </div>
-      </div>
-      <div style="text-align: center; margin-top: 20px; border-top: 1px solid #333; padding-top: 16px; font-size: 0.85rem; color: #888;">
-        Each component scored via percentile ranking across all qualifying plays.<br>
-        Aggregated per rusher: mean of all plays where he was the closest defender at release.
-      </div>
+    <div class="formula">
+      Ghost Pressure = A (Rushed Release) + B (Forced Movement) + C (Proximity) + D (Outcome)<br>
+      Each component: 0 to 25, scored via percentile ranking across all qualifying plays<br>
+      Aggregated per rusher: mean of all plays where he was the closest defender at release
     </div>
 
     <!-- =========================================================== -->
